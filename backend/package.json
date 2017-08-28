@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "baidumap": "0.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "content-filter": "^1.0.22",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "geopoint": "^1.0.1",
+    "jwt-simple": "^0.5.0",
+    "lodash": "^4.15.0",
+    "mongoose": "^4.5.3",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0"
+  }
+}
